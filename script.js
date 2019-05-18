@@ -4,6 +4,8 @@ function arithMetic(sum) {
 
 document.getElementById("arithMetic").innerHTML = arithMetic(6 + 50 * 10);
 
+
+//LogicalOperator
 var a = 5;
 var b = 2;
 var c = a % b;
@@ -14,3 +16,14 @@ function logicalOperatorMix(check) {
 }
 
 document.getElementById("logicalOperatorMix").innerHTML = logicalOperatorMix(5 + 5 == 10 && 10 * 20 > 100);
+
+//Calculator
+function number(value){
+	document.form.result.value +=value;
+	}
+	function clear(value){
+		document.form.result.value =value;
+	}
+	function outcome(){
+		document.form.result.value = eval(document.form.result.value);
+	}
