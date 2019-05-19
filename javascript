@@ -8,9 +8,7 @@
 <div class="header">
  <a>JAVASCRIPT</a>
  <div class="header-right">
-   <a class="active" href="/RCP/basic">Home</a>
-   <a href="/RCP/shop">Shop</a>
-   <a href="/RCP/contact">Contact</a>
+   <a class="active" href="/js/javascript">Home</a>
  </div>
 </div>
 <div class="bg"></div>
@@ -23,6 +21,7 @@
 	  <div class="column" style="background-color:#e8e8e8;">
 	    <h2>First code - Arithmetic</h2>
 	    <p id="arithMetic"</p>
+      <p><strong>Expected result:</strong> 506</p>
 	  </div>
 	  <div class="column" style="background-color:#bbb;">
 	    <h2>Code</h2>
@@ -38,6 +37,7 @@
 	  <div class="column" style="background-color:#e8e8e8;">
 	    <h2>First code - Remainder</h2>
 	    <p id="remainder"</p>
+      <p><strong>Expected result:</strong> 1</p>
 	  </div>
 	  <div class="column" style="background-color:#bbb;">
 	    <h2>Code</h2>
@@ -45,25 +45,28 @@
         var a = 5;
         var b = 2;
         var c = a % b;
-        document.getElementById("remainder").innerHTML = "What is left 5 % 2 =  " + c;
-
-        </code>
+        document.getElementById("remainder").innerHTML = "What is left 5 % 2 =  " + c;</code>
 	  </div>
 	</div>
+  <h1>Logical Operator check - True</h1>
+  <div class="row">
+    <div class="column" style="background-color:#e8e8e8;">
+      <h2>First code - Logical Operator</h2>
+      <p id="logicalOperatorMix"</p>
+      <p><strong>Expected result:</strong> True</p>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>Code</h2>
+      <code>
+        // Logical operator Mix - True
+        function logicalOperatorMix(check) {
+        return "5 + 5 = 10 && 10 x 20 > 100 = " + check;
+      }
 
-
-
-
-<h2>Understanding Arithmetic</h2>
-<p id="arithMetic"></p>
-
-<h2>Remainder</h2>
-<p id="remainder"></p>
-
-<h2>Logical Operator check - True</h2>
-<p id="logicalOperatorMix"></p>
-
-</script>
+      document.getElementById("logicalOperatorMix").innerHTML = logicalOperatorMix(5 + 5 == 10 && 10 * 20 > 100);
+</code>
+    </div>
+  </div>
 	<form name="form">
 	<table align="left">
 	<tr><td colspan="4">Calculator</td></tr>
