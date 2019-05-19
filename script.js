@@ -27,3 +27,8 @@ function number(value){
 	function outcome(){
 		document.form.result.value = eval(document.form.result.value);
 	}
+
+
+  // Exercise Looping a Triangle
+  for (var number = "#"; number.length <= 7; number += "#")
+  console.log(number)
