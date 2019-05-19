@@ -32,3 +32,19 @@ function number(value){
   // Exercise Looping a Triangle
   for (var number = "#"; number.length <= 7; number += "#")
   console.log(number)
+
+
+// Exercise Chessboard
+var board = "";
+
+for (var a = 0; a < 8; a++) {
+  for (var b = 0; b < 8; b++) {
+    if ((a + b) % 2 == 0)
+      board += " ";
+    else
+      board += "#";
+  }
+  board += "\n";
+}
+
+console.log(board);
