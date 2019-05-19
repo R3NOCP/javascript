@@ -25,7 +25,9 @@
 	  </div>
 	  <div class="column" style="background-color:#bbb;">
 	    <h2>Code</h2>
-	    <code>function arithMetic(sum) {
+	    <code>
+        //Arithmetic
+        function arithMetic(sum) {
         return "Outcome 6 + 50 * 10 =  " + sum;
       }
 
@@ -41,7 +43,9 @@
 	  </div>
 	  <div class="column" style="background-color:#bbb;">
 	    <h2>Code</h2>
-	    <code>function arithMetic(sum) {
+	    <code>
+        // Remainder
+        function arithMetic(sum) {
         var a = 5;
         var b = 2;
         var c = a % b;
@@ -58,7 +62,7 @@
     <div class="column" style="background-color:#bbb;">
       <h2>Code</h2>
       <code>
-        // Logical operator Mix - True
+        // Logical operator Mix - True <br>
         function logicalOperatorMix(check) {
         return "5 + 5 = 10 && 10 x 20 > 100 = " + check;
       }
