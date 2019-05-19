@@ -9,17 +9,6 @@
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 
 body,html {
   font-family: Arial, Helvetica, sans-serif;
@@ -88,8 +77,116 @@ header img,header nav {
 
 .bg {
   background-image: url("http://www.purelogics.net/blog/wp-content/uploads/2019/01/javascript.png");
-  height: 80%;
+  height: 105%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer {
+    padding: 20px;
+    text-align: left;
+    background: #000000;
+    width: 100%;
+    background-image: url("https://i.ibb.co/bQMYFDD/footer-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.footer-h2 {
+  text-align: center
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.column.footer {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 200px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column.footer {
+    width: 100%;
+  }
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+a:active {
+  color: #777
+  text-decoration: none;
+}
+
+a.social {
+  color: #ffffff;
+  text-align: left;
+}
+
+p.copyright {
+    color: #fff;
+    line-height: 60px;
+    font-size: 0.7em;
+}
+
+.footer-text {
+  color: #ffffff;
+  text-align: left;
+}
+
+#footer-logo {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+#footer-logo img {
+  width: 100%;
+  height: auto;
+}
+
+p.footer-text {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 6px;
+}
+
+p.footer-text:hover {
+  color: #777;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 6px;
+}
+
+.footer-container {
+text-align: center;
+
 }

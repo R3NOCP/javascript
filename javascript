@@ -3,6 +3,7 @@
 <head>
 <title>Reno Postema</title>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class="header">
@@ -71,46 +72,22 @@
 </code>
     </div>
   </div>
-	<form name="form">
-	<table align="left">
-	<tr><td colspan="4">Calculator</td></tr>
-		<tr><td colspan="4">
-		<input type = "text" name="result" placeholder="0" disabled style="text-align:center"></input>
-		</td></tr>
-		<tr>
-		<td><button type = "button" onclick="number(value)" value="1">1</button></td>
-		<td><button type = "button" onclick="number(value)" value="2">2</button></td>
-		<td><button type = "button" onclick="number(value)" value="3">3</button></td>
-		<td><button type = "button" onclick="number(value)" value="+">+</button></td>
-		</tr>
-		<tr>
-		<td><button type = "button" onclick="number(value)" value="4">4</button></td>
-		<td><button type = "button" onclick="number(value)" value="5">5</button></td>
-		<td><button type = "button" onclick="number(value)" value="6">6</button></td>
-		<td><button type = "button" onclick="number(value)" value="-">-</button></td>
-		</tr>
-		<tr>
-		<td><button type = "button" onclick="number(value)" value="7">7</button></td>
-		<td><button type = "button" onclick="number(value)" value="8">8</button></td>
-		<td><button type = "button" onclick="number(value)" value="9">9</button></td>
-		<td><button type = "button" onclick="number(value)" value="/">/</button></td>
-		</tr>
-		<tr>
-		<td><button type = "button" onclick="number(value)" value="."><strong>.</strong></button></td>
-		<td><button type = "button" onclick="number(value)" value="0">0</button></td>
-		<td><button type = "button" onclick="number(value)" value="*">*</button></td>
-		</tr>
-		<tr>
-		<td colspan="2">
-		<button type = "button" onclick="clear(value)" value="">C</button></td>
-		<td colspan="2">
-		<button type = "button" onclick="outcome()">=</button>
-		</td>
-		</tr>
-	</table>
-	</form>
-
-
+  <div class="footer">
+    <div class="row">
+    <div class="column.footer">
+      <h2 class="footer-h2">CONTACT</h2>
+      <p class="footer-text">Student @ CodeGorilla</p>
+      <p class="footer-text">Kwinkenplein 10</p>
+      <p class="footer-text">9712 GZ Groningen</p>
+      <p class="footer-text">The Netherlands</p>
+    </div>
+      <div class="footer-container">
+          <a class="social">FOLLOW ME ON:</a>
+          <a href="#" class="fa fa-facebook fa-2x"></a>
+          <a></a>
+          <a href="#" class="fa fa-twitter fa-2x"></a>
+          <p class="copyright">© Reno Postema 2019</p>
+      </div>
 <script src="script.js"></script>
 </body>
 </html>
