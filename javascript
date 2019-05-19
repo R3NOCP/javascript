@@ -1,5 +1,63 @@
-<html>
+<!DOCTYPE html>
+<html lang="NL">
+<head>
+<title>Reno Postema</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="header">
+ <a>JAVASCRIPT</a>
+ <div class="header-right">
+   <a class="active" href="/RCP/basic">Home</a>
+   <a href="/RCP/shop">Shop</a>
+   <a href="/RCP/contact">Contact</a>
+ </div>
+</div>
+<div class="bg"></div>
+<style>
+</style>
+</head>
 <body>
+	<h1>Learning Javascript</h1>
+	<div class="row">
+	  <div class="column" style="background-color:#e8e8e8;">
+	    <h2>First code - Arithmetic</h2>
+	    <p id="arithMetic"</p>
+	  </div>
+	  <div class="column" style="background-color:#bbb;">
+	    <h2>Code</h2>
+	    <code>function arithMetic(sum) {
+        return "Outcome 6 + 50 * 10 =  " + sum;
+      }
+
+      document.getElementById("arithMetic").innerHTML = arithMetic(6 + 50 * 10);</code>
+	  </div>
+	</div>
+  <h1>Remainder</h1>
+	<div class="row">
+	  <div class="column" style="background-color:#e8e8e8;">
+	    <h2>First code - Remainder</h2>
+	    <p id="remainder"</p>
+	  </div>
+	  <div class="column" style="background-color:#bbb;">
+	    <h2>Code</h2>
+	    <code>function arithMetic(sum) {
+        var a = 5;
+        var b = 2;
+        var c = a % b;
+        document.getElementById("remainder").innerHTML = "What is left 5 % 2 =  " + c;
+
+        function logicalOperatorMix(check) {
+          return "5 + 5 = 10 && 10 x 20 > 100 = " + check;
+        }
+
+        document.getElementById("logicalOperatorMix").innerHTML = logicalOperatorMix(5 + 5 == 10 && 10 * 20 > 100);</code>
+	  </div>
+	</div>
+
+
+
+
 <h2>Understanding Arithmetic</h2>
 <p id="arithMetic"></p>
 
